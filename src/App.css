@@ -1,0 +1,74 @@
+.start-card {
+  width: 60%;
+  height: 80vh;
+  place-items: center;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./assets/blobs-baby.png"), url("./assets/blobs-lemony.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom left, top right;
+  flex-direction: column;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  margin: 0;
+}
+
+.sub-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.start-button {
+  width: 193px;
+  height: 52px;
+  font-family: 'Inter';
+  font-size: 16px;
+}
+
+.questions-card {
+  width: 50%;
+  height: 50vh;
+  place-items: center;
+  margin: 0 auto;
+  padding: 8rem;
+  background-image: url("./assets/blobs-baby.png"), url("./assets/blobs-lemony.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom left, top right;
+}
+
+.check-answers-button {
+  width: 140px;
+  height: 40px;
+  font-family: 'Inter';
+  font-size: 12px;
+  display: block;
+  margin: 20px auto;
+}
+
+.play-again-button {
+  width: 120px;
+  height: 40px;
+  font-family: 'Inter';
+}
+
+.check-answers-button:hover,
+.play-again-button:hover {
+  cursor: pointer;
+}
+
+.stats-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,46 @@
+.answer-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.answer-button {
+    flex-basis: content;
+    margin-right: 20px;
+    min-height: 25px;
+    color: #293264;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.answer-button:hover {
+    cursor: pointer;
+}
+
+.answer-button-isChosen {
+    background: #D6DBF5;
+}
+
+.answer-button-isNotChosen {
+    background: transparent;
+    border: 0.8px solid #4D5B9E;
+}
+
+.answer-button-isCorrect {
+    background: #94D7A2;
+}
+
+.answer-button-isNotCorrect {
+    opacity: 0.5;
+    background: #F8BCBC;
+}
+
+.answer-button-others {
+    opacity: 0.5;
+    background: transparent;
+    border: 0.8px solid #4D5B9E;
+}
+
+.line-breaker {
+    border: 0.5px solid #DBDEF0;
+}
