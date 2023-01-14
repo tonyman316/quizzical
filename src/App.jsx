@@ -39,7 +39,6 @@ function App() {
     return text.replace(quotRegex, "'").replace(apostropheRegex, "'").replace(andRegex, "&")
   }
 
-  // console.log("questions", questions)
   function getRandomIndex(question) {
     let numberOfAnswers = question.incorrect_answers.length + 1
     return Math.floor(Math.random() * numberOfAnswers)

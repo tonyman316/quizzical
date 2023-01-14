@@ -1,6 +1,6 @@
 .start-card {
-  width: 60%;
-  height: 80vh;
+  width: 75%;
+  height: 50vh;
   place-items: center;
   margin: 0 auto;
   padding: 2rem;
@@ -37,11 +37,11 @@
 }
 
 .questions-card {
-  width: 50%;
+  width: 65%;
   height: 50vh;
   place-items: center;
   margin: 0 auto;
-  padding: 8rem;
+  padding: 10rem 8rem;
   background-image: url("./assets/blobs-baby.png"), url("./assets/blobs-lemony.png");
   background-repeat: no-repeat, no-repeat;
   background-position: bottom left, top right;
@@ -51,7 +51,7 @@
   width: 140px;
   height: 40px;
   font-family: 'Inter';
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   margin: 20px auto;
 }
@@ -60,10 +60,10 @@
   width: 120px;
   height: 40px;
   font-family: 'Inter';
+  font-size: 14px;
 }
 
-.check-answers-button:hover,
-.play-again-button:hover {
+button:hover {
   cursor: pointer;
 }
 
@@ -71,4 +71,12 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .questions-card {
+    width: 90%;
+    height: 100vh;
+    padding: 3rem 1rem 6rem 1rem;
+  }
 }
